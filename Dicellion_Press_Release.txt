@@ -20,8 +20,8 @@ game you can learn in a minute, take a weekend to master, and still be
 chasing one more chain long after you meant to stop.
 
 Three ways to play
-- Start: five stages, each with its own look, soundtrack and checklist of
-  groups to make. Clear a stage to keep its theme.
+- Start: five stages, five themes. Each hands you a checklist of groups to
+  make, and clearing it lets you keep that stage's theme and soundtrack.
 - Unlimited: pure score attack, as the dice keep coming and the levels keep
   climbing.
 - Multiplayer: local head-to-head against a friend or a bot (Easy, Normal or
@@ -43,6 +43,9 @@ too much coffee and a passion for nostalgic games."
 
 Dicellion on Steam: https://store.steampowered.com/app/5370760/Dicellion/
 Trailer (1080p60 MP4): https://retrospectgames.co.uk/Dicellion_Trailer_1080p60.mp4
+  The trailer showcases actual gameplay against the built-in bot: rolling,
+  fusing and stealing groups across every theme, ending on a board-clearing
+  bomb.
 Press kit: https://retrospectgames.co.uk
 Press contact: hello@retrospectgames.co.uk
 
