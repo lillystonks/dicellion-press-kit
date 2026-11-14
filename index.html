@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dicellion Press Kit</title>
+<meta name="description" content="Press kit for Dicellion, a fast, fizzing dice puzzler from Retro Spect. Out on Steam for Windows and macOS on 30 November 2026.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Dicellion Press Kit">
+<meta property="og:description" content="Fact sheet, screenshots, logos and key art for Dicellion. Out on Steam 30 November 2026, free demo available now.">
+<meta property="og:image" content="og-image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" type="image/png" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Aldrich&family=Nunito+Sans:opsz,wght@6..12,400;6..12,600;6..12,800&display=swap">
+<style>
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img { max-width: 100%; }
+[hidden] { display: none !important; }
+/* Layout: a dusk-teal band carries the logo and the facts a journalist needs first;
+   below it, one reading column for the story and wide grids for the assets. */
+:root {
+  --ground: #EEF5F3;      /* page, a pale wash of the dusk board */
+  --surface: #FFFFFF;     /* panels */
+  --ink: #12302F;         /* text, the board's deep teal */
+  --muted: #4E6966;       /* secondary text */
+  --line: #CFE0DC;        /* rules and outlines */
+  --dusk: #2BB6A8;        /* the dusk theme's sea green */
+  --night: #10383A;       /* the title screen's ground: logo tiles and the hero */
+  --night-ink: #F0FAFF;   /* the logo's cool white */
+  --accent: #943D49;      /* player one's deepened pink */
+  --accent-ink: #FFFFFF;
+  --focus: #E46A7A;
+  --display: "Aldrich", "Eurostile", "Arial Narrow", system-ui, sans-serif;
+  --body: "Nunito Sans", "Segoe UI", system-ui, -apple-system, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --ground: #0B2224; --surface: #11302F; --ink: #E4F2EF; --muted: #9DBAB5;
+    --line: #234845; --dusk: #3FC9BA; --night: #082022; --night-ink: #F0FAFF;
+    --accent: #D9677A; --accent-ink: #1A0C0F; --focus: #F29AA8; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --ground: #0B2224; --surface: #11302F; --ink: #E4F2EF; --muted: #9DBAB5;
+  --line: #234845; --dusk: #3FC9BA; --night: #082022; --night-ink: #F0FAFF;
+  --accent: #D9677A; --accent-ink: #1A0C0F; --focus: #F29AA8; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { background: var(--ground); color: var(--ink); font-family: var(--body); font-size: 16px; line-height: 1.6; }
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--focus); outline-offset: 2px; border-radius: 4px; }
+h1, h2, h3 { font-family: var(--display); font-weight: 400; letter-spacing: 0.06em; text-wrap: balance; margin: 0; }
+h2 { font-size: 1.5rem; text-transform: uppercase; }
+h3 { font-size: 1rem; text-transform: uppercase; letter-spacing: 0.1em; }
+p { margin: 0; }
+
+.wrap { max-width: 1120px; margin: 0 auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+
+/* --- hero --- */
+.hero { background: var(--night); color: var(--night-ink); }
+.hero .wrap { padding-block: 40px 36px; display: grid; gap: 28px; }
+.hero-art { width: 100%; border-radius: 10px; display: block; aspect-ratio: 3840 / 1240; object-fit: cover; }
+.hero-head { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 24px; align-items: end; }
+.hero h1 img { width: min(560px, 100%); display: block; }
+.hero h1 { line-height: 0; }
+.tagline { font-family: var(--display); letter-spacing: 0.32em; font-size: 0.95rem; margin-top: 14px; color: #8FE3D9; }
+.hero-lede { max-width: 62ch; color: #CFE6E2; margin-top: 12px; }
+.launch { border: 1px solid #2E6A66; border-radius: 10px; padding: 16px 18px; display: grid; gap: 4px; min-width: 230px; }
+.launch .label { font-size: 0.72rem; letter-spacing: 0.16em; text-transform: uppercase; color: #8FE3D9; }
+.launch .date { font-family: var(--display); font-size: 1.45rem; letter-spacing: 0.04em; }
+.launch .price { font-variant-numeric: tabular-nums; }
+.launch .price s { color: #8FB0AC; }
+.cta-row { display: flex; flex-wrap: wrap; gap: 10px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; border-radius: 8px; padding: 10px 16px; font: 600 0.95rem var(--body); text-decoration: none; border: 1px solid transparent; cursor: pointer; }
+.btn-primary { background: var(--dusk); color: #052422; }
+.btn-ghost { border-color: #3D7E79; color: var(--night-ink); background: transparent; }
+.btn-plain { background: var(--surface); color: var(--ink); border-color: var(--line); }
+.btn-plain:hover, .btn-ghost:hover { border-color: var(--dusk); }
+.btn-primary:hover { filter: brightness(1.08); }
+
+nav.jump { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--surface); }
+nav.jump .wrap { display: flex; gap: 4px 18px; flex-wrap: wrap; padding-block: 10px; font-size: 0.85rem; font-weight: 600; }
+nav.jump a { text-decoration: none; color: var(--muted); }
+nav.jump a:hover { color: var(--ink); }
+
+main .wrap { display: grid; gap: 64px; padding-block: 48px 72px; }
+section { display: grid; gap: 22px; scroll-margin-top: 64px; }
+.section-head { display: flex; flex-wrap: wrap; gap: 12px 20px; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--line); padding-bottom: 10px; }
+.section-head p { color: var(--muted); font-size: 0.92rem; }
+
+/* --- facts + story --- */
+.split { display: grid; grid-template-columns: minmax(0, 340px) minmax(0, 1fr); gap: 40px; align-items: start; }
+.facts { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 6px 20px; }
+.facts dl { margin: 0; display: grid; }
+.facts .row { display: grid; grid-template-columns: 112px minmax(0, 1fr); gap: 12px; padding: 11px 0; border-bottom: 1px solid var(--line); }
+.facts .row:last-child { border-bottom: 0; }
+.facts dt { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); padding-top: 3px; }
+.facts dd { margin: 0; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 0; overflow-wrap: anywhere; }
+.facts dd small { display: block; font-weight: 400; color: var(--muted); font-size: 0.85rem; }
+.story { display: grid; gap: 18px; max-width: 66ch; min-width: 0; }
+.story .big { font-size: 1.2rem; line-height: 1.55; }
+.copybox { display: grid; gap: 10px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; }
+.copybox .label { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+
+/* the matching rule, drawn as dice */
+.rule { display: flex; flex-wrap: wrap; gap: 14px 22px; padding: 18px 0 4px; }
+.rule figure { margin: 0; display: grid; gap: 6px; justify-items: start; }
+.rule .dice { display: flex; gap: 4px; }
+.rule figcaption { font-size: 0.8rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.die { width: 26px; height: 26px; border-radius: 6px; background: var(--surface); border: 1px solid var(--line); display: grid; grid-template-columns: repeat(3, 1fr); grid-template-rows: repeat(3, 1fr); padding: 4px; box-shadow: 0 1px 0 var(--line); }
+.die i { width: 4px; height: 4px; border-radius: 50%; background: var(--night); place-self: center; }
+:root[data-theme="dark"] .die i { background: var(--dusk); }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .die i { background: var(--dusk); } }
+.die.one { opacity: 0.45; }
+
+.modes { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+.mode { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 18px; display: grid; gap: 8px; align-content: start; }
+.mode p { color: var(--muted); font-size: 0.95rem; }
+.features { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px 32px; margin: 0; padding: 0; list-style: none; }
+.features li { padding-left: 18px; position: relative; }
+.features li::before { content: ""; position: absolute; left: 0; top: 0.62em; width: 8px; height: 8px; border-radius: 2px; background: var(--dusk); }
+
+/* --- media --- */
+.trailer { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: center; }
+.trailer a.still { position: relative; display: block; border-radius: 12px; overflow: hidden; }
+.trailer a.still img { display: block; width: 100%; aspect-ratio: 16/9; object-fit: cover; }
+.trailer a.still span { position: absolute; left: 14px; bottom: 14px; background: rgba(8, 32, 34, 0.86); color: #F0FAFF; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; }
+.grid { display: grid; gap: 18px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); }
+.asset { display: grid; gap: 10px; align-content: start; min-width: 0; }
+.asset .frame { border-radius: 10px; overflow: hidden; border: 1px solid var(--line); background: var(--surface); }
+.asset img { display: block; width: 100%; height: auto; }
+.asset .meta { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 0.88rem; }
+.asset .meta span { color: var(--muted); font-variant-numeric: tabular-nums; min-width: 0; }
+.dl { background: none; border: 1px solid var(--line); color: var(--ink); border-radius: 6px; padding: 5px 10px; font: 600 0.82rem var(--body); cursor: pointer; text-decoration: none; white-space: nowrap; }
+.dl:hover { border-color: var(--dusk); }
+.logo-tile { background: var(--night); display: grid; place-items: center; padding: 36px 24px; min-height: 180px; }
+.logo-tile img { width: auto; max-width: 100%; max-height: 120px; }
+.art-wide { grid-column: 1 / -1; }
+
+.studio { display: grid; grid-template-columns: 140px minmax(0, 1fr); gap: 28px; align-items: center; }
+.studio .mark { background: var(--night); border-radius: 12px; padding: 18px; }
+.studio .mark img { display: block; width: 100%; }
+.credits { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 16px; }
+.credits div { border-top: 2px solid var(--dusk); padding-top: 10px; }
+.credits dt { font-size: 0.75rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--muted); }
+.credits dd { margin: 2px 0 0; font-weight: 600; }
+
+.contact { background: var(--night); color: var(--night-ink); border-radius: 14px; padding: 28px; display: grid; gap: 14px; }
+.contact .addr { color: inherit; text-decoration: none; font-family: var(--display); font-size: clamp(1.1rem, 4vw, 1.6rem); letter-spacing: 0.04em; user-select: all; overflow-wrap: anywhere; }
+.contact p { color: #CFE6E2; max-width: 60ch; }
+.toast { position: fixed; left: 50%; bottom: calc(18px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--night); color: var(--night-ink); padding: 10px 16px; border-radius: 8px; font-size: 0.9rem; z-index: 20; }
+footer { color: var(--muted); font-size: 0.85rem; }
+
+@media (max-width: 860px) {
+  .split, .trailer, .studio { grid-template-columns: minmax(0, 1fr); }
+  .hero-head { grid-template-columns: minmax(0, 1fr); }
+  .modes { grid-template-columns: minmax(0, 1fr); }
+  .features { grid-template-columns: minmax(0, 1fr); }
+  .studio .mark { max-width: 140px; }
+}
+@media (prefers-reduced-motion: no-preference) { .btn, .dl { transition: border-color .15s, filter .15s; } }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="wrap">
+    <img class="hero-art" src="preview/dicellion_key_art_3840x1240.jpg" alt="Dicellion key art: white dice with teal pips across a glassy board">
+    <div class="hero-head">
+      <div>
+        <h1><img src="preview/dicellion_logo_white.png" alt="Dicellion"></h1>
+        <p class="tagline">ROLL · FUSE · STEAL</p>
+        <p class="hero-lede">A fast, fizzing puzzle game about tumbling dice into place, from UK solo developer Retro Spect. Inspired by the PlayStation classic Devil Dice.</p>
+      </div>
+      <div class="launch">
+        <span class="label">Out on Steam</span>
+        <span class="date">30 Nov 2026</span>
+        <span class="price">£6.99 · launch week <strong>£5.59</strong> (−20%)</span>
+        <span class="label" style="margin-top:6px">Free demo out now</span>
+      </div>
+    </div>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="https://store.steampowered.com/app/5370760/Dicellion/" target="_blank" rel="noopener">View on Steam</a>
+      <a class="btn btn-ghost" href="Dicellion_Press_Kit.zip" download>Download the full kit (zip, 4.8 MB)</a>
+      <a class="btn btn-ghost" href="Dicellion_Press_Release.txt" download>Press release (txt)</a>
+    </div>
+  </div>
+</header>
+
+<nav class="jump" aria-label="Sections">
+  <div class="wrap">
+    <a href="#facts">Facts</a>
+    <a href="#gameplay">The game</a>
+    <a href="#trailer">Trailer</a>
+    <a href="#screenshots">Screenshots</a>
+    <a href="#logos">Logos</a>
+    <a href="#key-art">Key art</a>
+    <a href="#studio">Studio</a>
+    <a href="#contact">Contact</a>
+  </div>
+</nav>
+
+<main>
+  <div class="wrap">
+
+    <section id="facts">
+      <div class="section-head"><h2>Fact sheet</h2><p>Everything you need for a listing.</p></div>
+      <div class="split">
+        <div class="facts">
+          <dl>
+            <div class="row"><dt>Title</dt><dd>Dicellion</dd></div>
+            <div class="row"><dt>Developer</dt><dd>Retro Spect<small>One-person studio, UK</small></dd></div>
+            <div class="row"><dt>Publisher</dt><dd>Retro Spect</dd></div>
+            <div class="row"><dt>Release</dt><dd>30 November 2026</dd></div>
+            <div class="row"><dt>Platforms</dt><dd>Steam<small>Windows 10 64-bit · macOS, Intel and Apple Silicon</small></dd></div>
+            <div class="row"><dt>Price</dt><dd>£6.99<small>20% off launch week: £5.59, 30 Nov – 7 Dec</small></dd></div>
+            <div class="row"><dt>Demo</dt><dd>Free on Steam, out now</dd></div>
+            <div class="row"><dt>Genre</dt><dd>Puzzle · strategy · casual</dd></div>
+            <div class="row"><dt>Players</dt><dd>1–2 local, or vs bot<small>Two players need two controllers</small></dd></div>
+            <div class="row"><dt>Languages</dt><dd>English + 28 more<small>Including French, German, Spanish, Japanese, Korean and Chinese</small></dd></div>
+            <div class="row"><dt>Steam</dt><dd>25 achievements<small>Steam Cloud · Steam Input · Family Sharing</small></dd></div>
+            <div class="row"><dt>Engine</dt><dd>Godot</dd></div>
+          </dl>
+        </div>
+
+        <div class="story">
+          <p class="big">Roll dice across a glassy grid, tip each one onto a new face, and line up matches: two 2s, three 3s, four 4s, all the way up to six 6s.</p>
+          <p>A group doesn't vanish straight away. It sinks into the board, and every matching die you cram in before it goes fuses into a bigger score. Clear again quickly to build a chain multiplier. Ones never score, so they have to be rolled out of the way.</p>
+          <p>Inspired by the cult PlayStation classic Devil Dice, Dicellion is the kind of game you can learn in a minute, take a weekend to master, and still be chasing one more chain long after you meant to stop.</p>
+          <div class="copybox">
+            <span class="label">Short description, ready to paste</span>
+            <p id="short-copy">Dicellion is a fast, fizzing dice puzzler from UK solo developer Retro Spect. Roll dice onto matching faces, fuse sinking groups into huge scores, and chain clears across five themed stages, endless Unlimited mode and local head-to-head. Out on Steam for Windows and macOS on 30 November 2026, with a free demo available now.</p>
+            <div><button class="btn btn-plain" type="button" data-copy="short-copy">Copy text</button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gameplay">
+      <div class="section-head"><h2>The game</h2><p>The one rule: a group of N dice showing N scores.</p></div>
+      <div class="rule" id="rule" aria-label="Two 2s, three 3s, four 4s, five 5s and six 6s score. Ones never score."></div>
+      <div class="modes">
+        <div class="mode"><h3>Start</h3><p>Five stages, five looks. Each hands you a checklist of groups to make, and clearing it lets you keep that stage's theme and soundtrack.</p></div>
+        <div class="mode"><h3>Unlimited</h3><p>Pure score attack. The dice keep coming, the board keeps filling and the levels keep climbing.</p></div>
+        <div class="mode"><h3>Multiplayer</h3><p>Local head-to-head against a friend or the bot (Easy, Normal or Difficult). Share one board and steal each other's groups, or race on a board each. Three, five or ten minute matches.</p></div>
+      </div>
+      <ul class="features">
+        <li>Four bonuses earned with special dice: Bomb clears the board, Freeze holds back new dice, Joker doubles points, Sweep explodes the commonest die.</li>
+        <li>Six themes, each with its own dice and music. One is a secret, unlocked by earning every achievement.</li>
+        <li>25 Steam achievements and leaderboards for every kind of match.</li>
+        <li>Keyboard or controller, with Steam Input support. Menus also work with a mouse.</li>
+        <li>Accessibility options: high-contrast dice, adjustable roll speed, keyboard-only play.</li>
+        <li>Fully translated into English plus 28 more languages.</li>
+      </ul>
+    </section>
+
+    <section id="trailer">
+      <div class="section-head"><h2>Trailer</h2><p>Watch and embed it from the Steam page.</p></div>
+      <div class="trailer">
+        <a class="still" href="https://store.steampowered.com/app/5370760/Dicellion/" target="_blank" rel="noopener">
+          <img src="preview/dicellion_trailer_still_1920x1080.jpg" alt="Still from the Dicellion trailer">
+          <span>Watch on Steam</span>
+        </a>
+        <div class="story">
+          <p>The trailer is the game playing itself, cut to the bars of the dusk theme's track: rolling, fusing and stealing groups across every theme, ending on a board-clearing bomb.</p>
+          <p>Need the video file for broadcast? Email the contact below and we'll send a 1080p60 copy.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="screenshots">
+      <div class="section-head"><h2>Screenshots</h2><p>1920×1080 PNG, straight from the game.</p></div>
+      <div class="grid" id="shots"></div>
+    </section>
+
+    <section id="logos">
+      <div class="section-head"><h2>Logos</h2><p>Transparent PNG, white artwork for dark backgrounds.</p></div>
+      <div class="grid" id="logo-grid"></div>
+    </section>
+
+    <section id="key-art">
+      <div class="section-head"><h2>Key art</h2><p>Capsule and banner art at Steam's sizes.</p></div>
+      <div class="grid" id="art"></div>
+    </section>
+
+    <section id="studio">
+      <div class="section-head"><h2>About Retro Spect</h2></div>
+      <div class="studio">
+        <div class="mark"><img src="preview/retro_spect_logo_white.png" alt="Retro Spect logo"></div>
+        <div class="story">
+          <p class="big">Retro Spect is a one-person indie developer, based in the UK, fuelled by far too much coffee and a passion for nostalgic games.</p>
+          <p>Dicellion is the studio's debut, designed and built by one developer, with music and sound licensed from Epidemic Sound.</p>
+        </div>
+      </div>
+      <dl class="credits">
+        <div><dt>Design, code and art</dt><dd>Retro Spect</dd></div>
+        <div><dt>Music and sound</dt><dd>Licensed from Epidemic Sound</dd></div>
+        <div><dt>Playtesting</dt><dd>Adam Hodkinson</dd></div>
+        <div><dt>Made with</dt><dd>Godot Engine</dd></div>
+      </dl>
+    </section>
+
+    <section id="contact">
+      <div class="contact">
+        <h2>Press contact</h2>
+        <a class="addr" id="email" href="mailto:hello@retrospectgames.co.uk">hello@retrospectgames.co.uk</a>
+        <p>For review keys, interviews, the trailer file or anything else, get in touch. Screenshots, logos and art in this kit may be used freely in coverage of Dicellion; please don't alter the logos.</p>
+        <div class="cta-row"><button class="btn btn-primary" type="button" data-copy="email">Copy email address</button></div>
+      </div>
+    </section>
+
+    <footer>Dicellion is © Retro Spect 2026.</footer>
+  </div>
+</main>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+(function () {
+  var SHOTS = [
+    ["dusk", "Dusk"], ["versus", "Split-screen versus"], ["paper", "Paper"], ["monument", "Monument"],
+    ["pixel", "Pixel"], ["match", "One board, two players"], ["glyph", "Glyph"]
+  ];
+  var LOGOS = [
+    ["logos/dicellion_logo_white.png", "preview/dicellion_logo_white.png", "Dicellion wordmark", "PNG"],
+    ["logos/dicellion_logo_with_die.png", "preview/dicellion_logo_with_die.png", "Wordmark with die", "PNG"],
+    ["logos/retro_spect_logo_white.png", "preview/retro_spect_logo_white.png", "Retro Spect", "PNG"],
+    ["logos/retro_spect_logo_white.svg", "preview/retro_spect_logo_white.png", "Retro Spect", "SVG"]
+  ];
+  var ART = [
+    ["key_art/dicellion_key_art_3840x1240.png", "Key art", "3840×1240", true],
+    ["key_art/dicellion_capsule_1232x706.png", "Main capsule", "1232×706"],
+    ["key_art/dicellion_header_920x430.png", "Header", "920×430"],
+    ["key_art/dicellion_vertical_748x896.png", "Vertical capsule", "748×896"],
+    ["key_art/dicellion_portrait_600x900.png", "Library portrait", "600×900"]
+  ];
+  function name(path) { return path.split("/").pop(); }
+  function preview(path) { return "preview/" + name(path).replace(/\.png$/, ".jpg"); }
+  function card(img, alt, label, detail, file, tile, wide) {
+    var el = document.createElement("div");
+    el.className = "asset" + (wide ? " art-wide" : "");
+    var frame = document.createElement("div");
+    frame.className = "frame" + (tile ? " logo-tile" : "");
+    var im = document.createElement("img");
+    im.src = img; im.alt = alt; im.loading = "lazy";
+    frame.appendChild(im);
+    var meta = document.createElement("div");
+    meta.className = "meta";
+    var s = document.createElement("span");
+    s.textContent = label + " · " + detail;
+    var a = document.createElement("a");
+    a.className = "dl"; a.href = "full/" + file; a.setAttribute("download", name(file));
+    a.textContent = "Download";
+    meta.appendChild(s); meta.appendChild(a);
+    el.appendChild(frame); el.appendChild(meta);
+    return el;
+  }
+  var shots = document.getElementById("shots");
+  SHOTS.forEach(function (s) {
+    var file = "screenshots/dicellion_" + s[0] + "_1920x1080.png";
+    shots.appendChild(card(preview(file), "Dicellion screenshot: " + s[1], s[1], "1920×1080", file));
+  });
+  var logos = document.getElementById("logo-grid");
+  LOGOS.forEach(function (l) { logos.appendChild(card(l[1], l[2] + " logo", l[2], l[3], l[0], true)); });
+  var art = document.getElementById("art");
+  ART.forEach(function (a) { art.appendChild(card(preview(a[0]), "Dicellion " + a[1], a[1], a[2], a[0], false, a[3])); });
+
+  // The matching rule as dice faces.
+  var PIPS = { 1: [4], 2: [0, 8], 3: [0, 4, 8], 4: [0, 2, 6, 8], 5: [0, 2, 4, 6, 8], 6: [0, 2, 3, 5, 6, 8] };
+  function die(n) {
+    var d = document.createElement("span");
+    d.className = "die" + (n === 1 ? " one" : "");
+    for (var i = 0; i < 9; i++) {
+      var cell = document.createElement(PIPS[n].indexOf(i) >= 0 ? "i" : "span");
+      d.appendChild(cell);
+    }
+    return d;
+  }
+  var rule = document.getElementById("rule");
+  var WORDS = { 1: "Ones never score", 2: "Two 2s", 3: "Three 3s", 4: "Four 4s", 5: "Five 5s", 6: "Six 6s" };
+  [2, 3, 4, 5, 6, 1].forEach(function (n) {
+    var f = document.createElement("figure");
+    var row = document.createElement("div");
+    row.className = "dice";
+    for (var i = 0; i < (n === 1 ? 1 : n); i++) row.appendChild(die(n));
+    var c = document.createElement("figcaption");
+    c.textContent = WORDS[n];
+    f.appendChild(row); f.appendChild(c);
+    rule.appendChild(f);
+  });
+
+  var toastEl = document.getElementById("toast"), toastTimer = 0;
+  function toast(msg) {
+    toastEl.textContent = msg; toastEl.hidden = false;
+    clearTimeout(toastTimer); toastTimer = setTimeout(function () { toastEl.hidden = true; }, 2600);
+  }
+
+  document.querySelectorAll("[data-copy]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var src = document.getElementById(b.dataset.copy);
+      var text = src.textContent.trim();
+      function select() {
+        var r = document.createRange(); r.selectNodeContents(src);
+        var sel = window.getSelection(); sel.removeAllRanges(); sel.addRange(r);
+        toast("Selected. Press Ctrl+C or ⌘C to copy.");
+      }
+      try {
+        navigator.clipboard.writeText(text).then(function () { toast("Copied"); }, select);
+      } catch (e) { select(); }
+    });
+  });
+
+})();
+</script>
+</body>
+</html>

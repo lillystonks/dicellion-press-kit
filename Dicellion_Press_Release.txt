@@ -1,0 +1,80 @@
+DICELLION ROLLS ONTO STEAM ON 30 NOVEMBER
+A fast, fizzing dice puzzler from UK solo developer Retro Spect.
+Free demo available now.
+
+For immediate release
+
+Retro Spect today confirmed that Dicellion, a puzzle game about tumbling dice
+into place, launches on Steam for Windows and macOS on 30 November 2026,
+priced £6.99 with 20% off for launch week. A free demo is out now.
+
+Players roll dice across a glassy grid, tipping each one onto a new face, and
+line up matches: two 2s, three 3s, four 4s, all the way up to six 6s. A group
+does not vanish straight away. It sinks into the board, and every matching die
+squeezed in before it goes fuses into a bigger score. Clear again quickly to
+build a chain multiplier. Ones never score, so they have to be rolled out of
+the way.
+
+Inspired by the cult PlayStation classic Devil Dice, Dicellion is the kind of
+game you can learn in a minute, take a weekend to master, and still be
+chasing one more chain long after you meant to stop.
+
+Three ways to play
+- Start: five stages, each with its own look, soundtrack and checklist of
+  groups to make. Clear a stage to keep its theme.
+- Unlimited: pure score attack, as the dice keep coming and the levels keep
+  climbing.
+- Multiplayer: local head-to-head against a friend or a bot (Easy, Normal or
+  Difficult). Share one board and steal each other's groups, or race on a
+  board each. Three, five or ten minute matches.
+
+Also included
+- Four bonuses earned by scoring special dice: Bomb, Freeze, Joker and Sweep.
+- Six themes, each with its own dice and music. One is a secret, unlocked by
+  earning every achievement.
+- 25 Steam achievements, leaderboards for every kind of match, Steam Cloud
+  saves.
+- Play on keyboard or controller, with Steam Input support. The menus also
+  work with a mouse.
+- English plus 28 more languages.
+
+"Retro Spect is a one-person indie developer, based in the UK, fuelled by far
+too much coffee and a passion for nostalgic games."
+
+Dicellion on Steam: https://store.steampowered.com/app/5370760/Dicellion/
+Press contact: hello@retrospectgames.co.uk
+
+                                  ###
+
+
+FACT SHEET
+
+Title            Dicellion
+Developer        Retro Spect (UK)
+Publisher        Retro Spect
+Release date     30 November 2026
+Platforms        Steam: Windows 10 64-bit, macOS (Intel and Apple Silicon)
+Price            £6.99 (20% off launch week: £5.59, 30 Nov - 7 Dec)
+Demo             Free on Steam, available now
+Genre            Puzzle, strategy, casual
+Players          1-2 (local multiplayer needs two controllers), or vs bot
+Languages        English, Bulgarian, Czech, Danish, Dutch, Finnish, French,
+                 German, Greek, Hungarian, Indonesian, Italian, Japanese,
+                 Korean, Norwegian, Polish, Portuguese (Portugal and Brazil),
+                 Romanian, Russian, Simplified Chinese, Spanish (Spain and
+                 Latin America), Swedish, Thai, Traditional Chinese, Turkish,
+                 Ukrainian, Vietnamese
+Steam features   Achievements (25), Steam Cloud, Steam Input, Family Sharing
+Accessibility    High-contrast dice option, adjustable roll speed, adjustable
+                 bot difficulty, keyboard-only play
+Engine           Godot
+Store page       https://store.steampowered.com/app/5370760/Dicellion/
+Press contact    hello@retrospectgames.co.uk
+
+CREDITS
+Design, development and art   Retro Spect
+Music and sound               Licensed from Epidemic Sound
+Playtesting                   Adam Hodkinson
+
+All screenshots, logos and key art in this kit may be used freely in coverage
+of Dicellion. Please do not alter the logos.
