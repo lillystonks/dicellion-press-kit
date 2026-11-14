@@ -341,6 +341,7 @@ footer { color: var(--muted); font-size: 0.85rem; }
   var ART = [
     ["key_art/dicellion_key_art_3840x1240.png", "Key art", "3840×1240", true],
     ["key_art/dicellion_trailer_thumbnail_1920x1080.png", "Trailer thumbnail", "1920×1080"],
+    ["key_art/dicellion_board_transparent_2000x1163.png", "Board render, transparent", "2000×1163 PNG", false, "preview/dicellion_board_transparent_2000x1163.png"],
     ["key_art/dicellion_capsule_1232x706.png", "Main capsule", "1232×706"],
     ["key_art/dicellion_header_920x430.png", "Header", "920×430"],
     ["key_art/dicellion_vertical_748x896.png", "Vertical capsule", "748×896"],
@@ -375,7 +376,7 @@ footer { color: var(--muted); font-size: 0.85rem; }
   var logos = document.getElementById("logo-grid");
   LOGOS.forEach(function (l) { logos.appendChild(card(l[1], l[2] + " logo", l[2], l[3], l[0], true)); });
   var art = document.getElementById("art");
-  ART.forEach(function (a) { art.appendChild(card(preview(a[0]), "Dicellion " + a[1], a[1], a[2], a[0], false, a[3])); });
+  ART.forEach(function (a) { art.appendChild(card(a[4] || preview(a[0]), "Dicellion " + a[1], a[1], a[2], a[0], false, a[3])); });
 
   // The matching rule as dice faces.
   var PIPS = { 1: [4], 2: [0, 8], 3: [0, 4, 8], 4: [0, 2, 6, 8], 5: [0, 2, 4, 6, 8], 6: [0, 2, 3, 5, 6, 8] };
