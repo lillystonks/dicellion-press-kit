@@ -78,7 +78,7 @@ Store page       https://store.steampowered.com/app/5370760/Dicellion/
 Press contact    hello@retrospectgames.co.uk
 
 CREDITS
-Design, development and art   Retro Spect
+Design, code and art          Retro Spect aka Lilly Reid
 Music and sound               Licensed from Epidemic Sound
 Playtesting                   Adam Hodkinson
 
