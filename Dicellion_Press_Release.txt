@@ -6,7 +6,7 @@ For immediate release
 
 Retro Spect today confirmed that Dicellion, a puzzle game about tumbling dice
 into place, launches on Steam for Windows and macOS on 30 November 2026,
-priced £6.99 with 20% off for launch week. A free demo is out now.
+priced $6.99 USD with 20% off for launch week. A free demo is out now.
 
 Players roll dice across a glassy grid, tipping each one onto a new face, and
 line up matches: two 2s, three 3s, four 4s, all the way up to six 6s. A group
@@ -56,7 +56,8 @@ Developer        Retro Spect (UK)
 Publisher        Retro Spect
 Release date     30 November 2026
 Platforms        Steam: Windows 10 64-bit, macOS (Intel and Apple Silicon)
-Price            £6.99 (20% off launch week: £5.59, 30 Nov - 7 Dec)
+Price            $6.99 USD (20% off launch week: $5.59, 30 Nov - 7 Dec;
+                 regional prices set by Steam)
 Demo             Free on Steam, available now
 Genre            Puzzle, strategy, casual
 Players          1-2 (local multiplayer needs two controllers), or vs bot
