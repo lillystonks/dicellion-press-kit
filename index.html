@@ -130,6 +130,7 @@ section { display: grid; gap: 22px; scroll-margin-top: 64px; }
 
 /* --- media --- */
 .trailer { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 28px; align-items: center; }
+.trailer video { display: block; width: 100%; aspect-ratio: 16/9; border-radius: 12px; background: #000; }
 .trailer a.still { position: relative; display: block; border-radius: 12px; overflow: hidden; }
 .trailer a.still img { display: block; width: 100%; aspect-ratio: 16/9; object-fit: cover; }
 .trailer a.still span { position: absolute; left: 14px; bottom: 14px; background: rgba(8, 32, 34, 0.86); color: #F0FAFF; padding: 8px 14px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; }
@@ -263,15 +264,17 @@ footer { color: var(--muted); font-size: 0.85rem; }
     </section>
 
     <section id="trailer">
-      <div class="section-head"><h2>Trailer</h2><p>Watch and embed it from the Steam page.</p></div>
+      <div class="section-head"><h2>Trailer</h2><p>1080p, 60 fps, 1 min 9 s.</p></div>
       <div class="trailer">
-        <a class="still" href="https://store.steampowered.com/app/5370760/Dicellion/" target="_blank" rel="noopener">
-          <img src="preview/dicellion_trailer_thumbnail_1920x1080.jpg" alt="Dicellion official trailer thumbnail">
-          <span>Watch on Steam</span>
-        </a>
+        <video controls preload="none" playsinline poster="preview/dicellion_trailer_thumbnail_1920x1080.jpg">
+          <source src="Dicellion_Trailer_1080p60.mp4" type="video/mp4">
+        </video>
         <div class="story">
           <p>The trailer is the game playing itself, cut to the bars of the dusk theme's track: rolling, fusing and stealing groups across every theme, ending on a board-clearing bomb.</p>
-          <p>Need the video file for broadcast? Email the contact below and we'll send a 1080p60 copy.</p>
+          <div class="cta-row">
+            <a class="btn btn-plain" href="Dicellion_Trailer_1080p60.mp4" download>Download the trailer (MP4, 75 MB)</a>
+            <a class="btn btn-plain" href="https://store.steampowered.com/app/5370760/Dicellion/" target="_blank" rel="noopener">Embed from Steam</a>
+          </div>
         </div>
       </div>
     </section>
